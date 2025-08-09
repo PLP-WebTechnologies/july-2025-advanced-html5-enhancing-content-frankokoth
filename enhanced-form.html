@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Week 2 Assignment</title>
+</head>
+<body>
+  <header>
+    <h1>HTML 5 Enhanced Content & Form</h1>
+    <p>The assignment is about demostrating lists, tables, embedded media and a fully functional HTML form</p>
+  </header>
+
+  <section>
+    <h2>1. LISTS</h2>
+    <p>Will show how to use orderd lists of collegues</p>
+    <ol>
+      <li>Frank</li>
+      <li>Ricky</li>
+      <li>Vladimr</li>
+      <li>Igor</li>
+      <li>Dmitrii</li>
+      <li>Mitesh</li>
+    </ol>
+
+    <p>An unordered list of fruits we eat:</p>
+    <ul>
+      <li>Mango</li>
+      <li>Oranges</li>
+      <li>Avocado</li>
+      <li>Apple</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>2. Demostrating Tables</h2>
+    <p>An example of a table</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Department</th>
+          <th>Age</th>
+          <th>Country</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Frank</td>
+          <td>IT</td>
+          <td>32</td>
+          <td>Kenya</td>
+        </tr>
+          <tr>
+          <td>Ricky</td>
+          <td>IT</td>
+          <td>33</td>
+          <td>Kenya</td>
+        </tr>
+          <tr>
+          <td>Tony</td>
+          <td>Housekeeping</td>
+          <td>40</td>
+          <td>Kenya</td>
+        </tr>
+          <tr>
+          <td>Michael</td>
+          <td>Housekeeping</td>
+          <td>30</td>
+          <td>Cameroon</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2>3. Embeded Media</h2>
+    <p>Here i will show you how to add image, audio and video using HTML5 elements:</p>
+    <p>Image sample</p>
+    <img src="Frank.png" height="250px" width="200px" alt="Frank Okoth picture">
+
+    <p>Audio sample:</p>
+    <audio controls>
+      <source src="Black Sherif So it Goes (Official Visualizer).mp3" type="audio">
+    </audio>
+
+    <p>Sample of video</p>
+    <video width="400" controls>
+      <source src="Welcome to Seychelles.mp4" type="video/mp4">
+    </video>
+  </section>
+
+  <section>
+    <h2>4. Form Validation</h2>
+    <form action="" method="post">
+      <fieldset>
+        <legend>
+          Personal Information
+        </legend>
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" placeholder="fullname" required>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" placeholder="email address" required>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required minlength="8">
+
+        <label for="department">Department:</label>
+        <select name="department" id="department" required>
+          <option value="">--Select Department--</option>
+          <option value="nformationTechnology">Information Technology</option>
+          <option value="engineering">Engineering</option>
+          <option value="housekeeping">Housekeeping</option>
+        </select>
+      </fieldset>
+
+      <fieldset>
+        <legend>
+          Other Details
+        </legend>
+        <label for="favcolor">Favorite Color:</label>
+        <input type="color" id="favcolor" name="favcolor">
+        <label for="bio">Bio:</label>
+        <textarea name="bio" id="bio" rows="4" placeholder="More about yourself"></textarea>
+      </fieldset>
+
+      <button type="submit">Submit</button>
+
+    </form>
+  </section>
+
+  <footer>
+    <p>
+      &COPY; 2025 Frank Okoth Ogweno
+    </p>
+  </footer>
+  
+</body>
+</html>
